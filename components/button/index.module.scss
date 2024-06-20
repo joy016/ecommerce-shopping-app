@@ -1,0 +1,16 @@
+$color: #ffffff;
+$background-color: #31363f;
+
+.primary {
+  color: $color;
+  background-color: $background-color;
+  padding: 10px;
+}
+
+.fullSize {
+  color: $color;
+  background-color: $background-color;
+  display: block;
+  padding: 10px;
+  width: 100%;
+}
