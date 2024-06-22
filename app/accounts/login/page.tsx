@@ -30,9 +30,9 @@ const Login = () => {
           </Link>
           <Link
             className={`link ${
-              pathname === '/accounts/signup' ? 'active' : ''
+              pathname === '/accounts/forgotpassword' ? 'active' : ''
             }`}
-            href="/accounts/signup"
+            href="/accounts/forgotpassword"
             style={{ fontSize: '12px', color: '#3A3A3A' }}
           >
             Forgot your password
