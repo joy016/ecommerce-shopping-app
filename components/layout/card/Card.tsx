@@ -2,13 +2,8 @@ import React from 'react';
 
 import styles from './index.module.scss';
 
-const Card = () => {
-  return (
-    <div className={styles.cardContainer}>
-      <h1>card</h1>
-      <h1>card2</h1>
-    </div>
-  );
+const Card = ({ children }: { children: React.ReactNode }) => {
+  return <div className={styles.cardContainer}>{children}</div>;
 };
 
 export default Card;

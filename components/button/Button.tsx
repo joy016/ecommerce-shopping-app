@@ -11,13 +11,7 @@ const Button = ({
   handleClick?: () => void;
   variant: 'primary' | 'fullSize';
 }) => {
-  return (
-    <button
-      className={variant === 'fullSize' ? styles.fullSize : styles.primary}
-    >
-      {btnName}
-    </button>
-  );
+  return <button className={styles[variant]}>{btnName}</button>;
 };
 
 export default Button;

@@ -3,8 +3,9 @@ import Card from '@/components/layout/card/Card';
 
 export default function Home() {
   return (
-    <main>
-      <Card />
-    </main>
+    <Card>
+      <h3>Card 1</h3>
+      <Input type="email" name="email" placeholder="Email" />
+    </Card>
   );
 }
