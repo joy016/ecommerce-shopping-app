@@ -1,4 +1,4 @@
-.loginContainer {
+.signUpContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,6 +6,6 @@
 
   &__linkContainer {
     display: flex;
-    gap: 10px;
+    gap: 2px;
   }
 }

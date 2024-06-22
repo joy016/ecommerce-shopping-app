@@ -7,13 +7,14 @@ import React from 'react';
 import styles from './index.module.scss';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import CardTitle from '@/components/cardtitle/CardTitle';
 
 const Login = () => {
   const pathname = usePathname();
   return (
     <div className={styles.loginContainer}>
       <Card>
-        <h1>Login</h1>
+        <CardTitle title="Login" />
         <Input type="email" name="email" placeholder="Email" />
         <Input type="password" name="password" placeholder="Password" />
         <Button btnName="Sign in" variant="fullSize" />
